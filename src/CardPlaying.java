@@ -1,5 +1,7 @@
 public class CardPlaying {
-    public void displayTheCard(){
+    public void playTheCard(){
+
+
 
     }
 }
