@@ -43,7 +43,7 @@ public class Deck {
             deck[secondString] = shuffled;
         }
         for (int i = 0; i < deck.length; i++) {
-            System.out.println(deck[i] + " "); //SİLİNECEK
+
 
             }
         }
@@ -51,8 +51,7 @@ public class Deck {
             String[] copyDeck1 = Arrays.copyOfRange(deck, 0, 26);
             String[] copyDeck2 = Arrays.copyOfRange(deck, 26, 52);
             System.out.println("Deck has been cut.");
-            System.out.println(Arrays.toString(copyDeck1));  //SİLİNECEK
-            System.out.println(Arrays.toString(copyDeck2)); //SİLİNECEK
+
         }
         public void dealTheCards(){
         String[] playersHand = new String[4];
@@ -69,16 +68,9 @@ public class Deck {
             }
 
         }
-        public void display(){
-            System.out.println("Please enter a card number to play");
-            System.out.println("Computer is playing");
-            System.out.println("Your turn to play");
-            System.out.println("Congrats! You made a Pişti");
-            System.out.println("That is not a valid card number");
-            System.out.println("Computer made a Pişti!");
-            System.out.println("○○○○○○○○○○○ Your Cards: ");
 
-        }
+
 }
+
 
 
